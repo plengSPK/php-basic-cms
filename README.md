@@ -13,4 +13,4 @@ Table  **articles**
 Table  **users**
 - user_id `PRIMARY KEY`
 - user_name `VARCHAR`
-- user_password `VARCHAR`
+- user_password `VARCHAR` (encrypt with md5)
