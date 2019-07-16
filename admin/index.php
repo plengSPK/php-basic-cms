@@ -29,7 +29,9 @@ require_once('../includes/connection.php');
                 <li><a href="delete.php">Delete Article</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ol>
-
+            
+            <br>
+            <small><a href="../">webpage</a></small>
         </div>
     <?php else: ?>
         <!-- display login -->    
@@ -80,6 +82,9 @@ require_once('../includes/connection.php');
                 <button type="submit" value="Login">Login</button>
                     
             </form>
+            
+            <br>
+            <small><a href="../">webpage</a></small>
         </div>
 
     <?php endif; ?>
